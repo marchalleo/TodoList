@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #5E6472; */
+  color: black;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column!important;
+}
+ul,
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.btn-edited {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+}
+.btn-complete {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #75E6CF;
+}
+.btn-delete {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #F04248;
+}
+.todo {
+  width: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+.crossed-line {
+  text-decoration: line-through;
+  opacity: 80%;
+}
