@@ -1,13 +1,13 @@
 # TodoList
  
  
-## Installation
+## ⚙️ Installation
 
 ```javascript
 npm install
 ```
 
-## Run the project
+## ✅ Run the project
 
 ```javascript
 npm run dev
